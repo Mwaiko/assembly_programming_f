@@ -1,4 +1,7 @@
 ; add16.asm
+;: nasm -f elf32 add2.asm -o add2.o
+; ld -m elf_i386 add2.o -o add2
+;./add2
 section .data
     num1 dw 32000
     num2 dw 500
