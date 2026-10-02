@@ -1,4 +1,7 @@
 ; sub8.asm
+;:nasm -f elf32 sub1.asm -o sub1.o
+; ld -m elf_i386 sub1.o -o sub1
+;./sub1
 section .data
     num1 db 50   ; 00110010
     num2 db 80   ; 01010000

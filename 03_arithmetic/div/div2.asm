@@ -1,5 +1,7 @@
 ; ax = quotient, dx = remainder
-
+;: nasm -f elf32 div2.asm -o div2.o
+; ld -m elf_i386 div2.o -o div2
+;./div2
 section .data
     dividend dw 50000   ; Low word
     highpart dw 0       ; High word (DX=0)

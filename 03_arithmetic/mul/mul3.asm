@@ -1,4 +1,6 @@
-; 
+;:nasm -f elf32 mul3.asm -o mul3.o
+; ld -m elf_i386 mul3.o -o mul3
+;./mul3
 section .data
     num1 dd 100000
     num2 dd 300000

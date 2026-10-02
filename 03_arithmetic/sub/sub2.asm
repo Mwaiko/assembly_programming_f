@@ -1,4 +1,7 @@
 ; sub16.asm
+;:nasm -f elf32 sub2.asm -o sub2.o
+; ld -m elf_i386 sub2.o -o sub2
+;./sub2
 section .data
     num1 dw 1000
     num2 dw 2000

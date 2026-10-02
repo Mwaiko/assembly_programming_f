@@ -1,4 +1,7 @@
 ; mul_byte.asm
+;:nasm -f elf32 mul1.asm -o mul1.o
+; ld -m elf_i386 mul1.o -o mul1
+;./mul1
 section .data
     num1 db 25
     num2 db 10

@@ -1,4 +1,6 @@
-
+;:nasm -f elf32 mul2.asm -o mul2.o
+; ld -m elf_i386 mul2.o -o mul2
+;./mul2
 section .data
     num1 dw 3000   ; 1011 10111000
     num2 dw 200    ;      11001000
