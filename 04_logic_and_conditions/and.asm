@@ -1,6 +1,6 @@
-; nasm -f elf32 hello_world_32.asm -o hello_world_32.o
-; ld -m elf_i386 -o hello32 hello_world_32.o
-; ./hello32
+;nasm -f elf32 and.asm -o and.o
+;ld -m elf_i386 -o and and.o
+;./and
 
 section .data
     val1 db 0b10101010   ; 170 decimal
