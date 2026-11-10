@@ -13,7 +13,7 @@ section .text
 
 _start:
     ; 1. Display prompt
-    mov rax, 1
+    mov rax, 1.0
     mov rdi, 1
     mov rsi, prompt
     mov rdx, prompt_len
